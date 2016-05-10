@@ -74,7 +74,7 @@ hist(by_day$total_by_day / 1000, breaks = 15,
      Per Day")
 ```
 
-![](PA1_Earnest_files/figure-html/unnamed-chunk-6-1.png)
+![](unnamed-chunk-6-1.png)
 
 ###Find mean and median of total number of steps per day
 
@@ -107,7 +107,7 @@ plot(avg_steps ~ interval, data = by_interval, type = "l",
      axis(side = 1, at = c(0, 500, 1000, 1500, 2000, 2355))
 ```
 
-![](PA1_Earnest_files/figure-html/unnamed-chunk-8-1.png)
+![](unnamed-chunk-8-1.png)
 
 ###Find interval with maximum average number of steps
 
@@ -167,7 +167,7 @@ hist(by_day_no_na$total_by_day / 1000, breaks = 15,
      Per Day (NAs Replaced)")
 ```
 
-![](PA1_Earnest_files/figure-html/unnamed-chunk-12-1.png)
+![](unnamed-chunk-12-1.png)
 
 ###Compare to total steps per day with NAs removed.
 
@@ -252,5 +252,5 @@ ggplot(int_grouped_act_data_no_na, aes(interval, total_steps)) +
   labs(x = "Interval", y = "Number of steps")
 ```
 
-![](PA1_Earnest_files/figure-html/unnamed-chunk-17-1.png)
+![](unnamed-chunk-17-1.png)
 Yes, there appears to be higher activity level during weekdays.
