@@ -253,4 +253,6 @@ ggplot(int_grouped_act_data_no_na, aes(interval, total_steps)) +
 ```
 
 ![](unnamed-chunk-17-1.png)
+
+
 Yes, there appears to be higher activity level during weekdays.
